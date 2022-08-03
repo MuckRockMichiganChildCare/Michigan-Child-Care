@@ -10,13 +10,13 @@ Those providers told the state about their current enrollments, as well as about
 
 Michigan legislators have publicly quoted a number popularized in 2021, which states that 44% of Michiganders live in a child care desert. That number, calculated by the Michigan League for Public Policy in 2021, actually uses a different definition than the Center for American Progress’s (CAP) definition of a child care desert. MLPP’s deserts include children age 5, while CAP’s (and MuckRock’s) only includes children under 5. The reason for this is because many 5-year-olds spend some, or all, of their year in kindergarten programs. Because MLPP included more children in their analysis, their 2021 report overestimates Michigan child care deserts. Despite that, MuckRock’s analysis uses CAP’s narrower age range, as well as more precise enrollment data, to find at least 7 more deserts than MLPP calculated.
 
-#H1 Data Files in this Repository
+# H1 Data Files in this Repository
 
-"Grant Data" is a spreadsheet of largely raw data provided to us by FOIA request by the Michigan Department of Education. The file is a joined version of two files that were given in response to the request, one called "Grant Data" and "Age Details". We found the joined version was essential to doing data analysis. If you'd like the unjoined, raw versions, please email luca@muckrock.com. NB "Grant Data" does not include roughly 2,000 centers that did not apply for grants. 
+- "Grant Data" is a spreadsheet of largely raw data provided to us by FOIA request by the Michigan Department of Education. The file is a joined version of two files that were given in response to the request, one called "Grant Data" and "Age Details". We found the joined version was essential to doing data analysis. If you'd like the unjoined, raw versions, please email luca@muckrock.com. NB "Grant Data" does not include roughly 2,000 centers that did not apply for grants. 
 
-"LARA Database" is a spreadsheet of every licensed childcare facility in the state of Michigan, as of LARA's website on June 5th, 2022.
+- "LARA Database" is a spreadsheet of every licensed childcare facility in the state of Michigan, as of LARA's website on June 5th, 2022.
 
-"Final Deserts" is a spreadsheet with the essential columns for calculating Michigan county desert ratios. The values in each column originate from the above files. The columns were calculated as follows:
+- "Final Deserts" is a spreadsheet with the essential columns for calculating Michigan county desert ratios. The values in each column originate from the above files. The columns were calculated as follows:
     - Full-Time and Part-Time Enrolled: Summing all enrolled students for each center in the grant data. This value is likely an overestimate, since we counted part-time students as equivalent to full-time students.
     - Capacity in Centers that Didn't Receive Grants: We outer joined grant-recipient centers with the LARA database to identify ~2,000 centers that didn't receive grants. This column shows the licensed capacity of those centers by county. This value is likely an overestimate, since we don't know how many of these centers are actually under-enrolled.
     - Total 'Optimistic' Childcare Enrollment: The sum of "Full-Time and Part-Time Enrolled" and "Capacity in Centers that Didn't Receive Grants"
