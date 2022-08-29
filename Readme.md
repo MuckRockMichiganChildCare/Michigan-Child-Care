@@ -21,7 +21,7 @@ As a result, the 20 county “deserts” we identify are a minimum estimate. If 
 
 #  Data Files in this Repository
 
-- "Grant Data" is a spreadsheet of largely raw data provided to us by FOIA request by the Michigan Department of Education. The file is a joined version of two files that were given in response to the request, one called "Grant Data" and "Age Details". We found the joined version was essential to doing data analysis. If you'd like the unjoined, raw versions, please email luca@muckrock.com. NB "Grant Data" does not include roughly 2,000 centers that did not apply for grants. 
+- "Grant Data" is a spreadsheet of largely raw data provided to us by FOIA request by the Michigan Department of Education. The file is a joined version of two files that were given in response to the request, one called "Grant Data" and "Age Details". We found the joined version was essential to doing data analysis. If you'd like the unjoined, raw versions, please email childcare@muckrock.com. NB "Grant Data" does not include roughly 2,000 centers that did not apply for grants. 
 
 - "LARA Database" is a spreadsheet of every licensed childcare facility in the state of Michigan, as of LARA's website on June 5th, 2022.
 
