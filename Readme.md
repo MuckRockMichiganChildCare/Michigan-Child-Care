@@ -1,4 +1,4 @@
-# H1 Methodology
+# Methodology
 
 How We Analyzed Michigan Child Care Daycare Data
 
@@ -19,7 +19,7 @@ To calculate deserts, we cross-referenced enrollments from the 5,900 grant recip
 As a result, the 20 county “deserts” we identify are a minimum estimate. If we had actual enrollment numbers for every facility in the state, it’s likely that several additional Michigan counties would qualify as deserts; Twenty-three counties are mere rounding errors away from the 3-to-1 threshold.
 
 
-# H1 Data Files in this Repository
+#  Data Files in this Repository
 
 - "Grant Data" is a spreadsheet of largely raw data provided to us by FOIA request by the Michigan Department of Education. The file is a joined version of two files that were given in response to the request, one called "Grant Data" and "Age Details". We found the joined version was essential to doing data analysis. If you'd like the unjoined, raw versions, please email luca@muckrock.com. NB "Grant Data" does not include roughly 2,000 centers that did not apply for grants. 
 
